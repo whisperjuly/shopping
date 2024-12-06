@@ -20,7 +20,6 @@
         <div id="productModal" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h2>添加商品</h2>
                     <span class="close-btn" id="closeModal">&times;</span>
                 </div>
                 <form class="add-form" action="/shopping/AddProduct" method="POST" enctype="multipart/form-data">
