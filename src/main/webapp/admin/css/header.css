@@ -1,0 +1,49 @@
+body{
+    width:100%;
+    margin:0;
+    padding:0;
+    padding-top: 60px;
+}
+* {
+    box-sizing: border-box; /* 使所有元素的 padding 和 border 包括在宽度内 */
+}
+
+.header-main {
+    position: fixed;
+    z-index: 1000;
+    top: 0;             /* 设置为顶部 */
+    left: 0;
+    width: 100%;
+    background-color:#f5f5f7;
+    padding: 14px 20px;
+    padding: 20px 25px; /* 可调整的上下左右间距 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.headtable {
+    width: 100%;
+}
+
+.headtable td {
+    padding: 5px;
+}
+
+.headtable .right {
+    text-align: right;
+    float: right;
+}
+
+.headtable a {
+    font-size: 20px;
+    padding-right:13px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
+
+

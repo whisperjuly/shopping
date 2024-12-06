@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+* {
+    box-sizing: border-box; /* 使所有元素的 padding 和 border 包括在宽度内 */
+}
+
+.register-main {
+    display: flex;
+    justify-content: center;   /* 水平居中 */
+    align-items: center;   /* 垂直居中 */
+    height: 600px;            /* 高度为视口高度 */
+}
+.sign-up {
+   background-color: #f4f4f4;
+   width: 50%;              /* 让宽度自适应父元素 */
+   max-width: 450px;
+   border-radius: 8px;
+   text-align: center;
+   padding: 30px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   height:500px;
+}
+.signform input {
+    display: block;            /* 让input占据整行 */
+    width: 80%;               /* 让每个输入框占满容器宽度 */
+    padding: 13px;
+    margin: 10px auto;            /* 上下间距 */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.signform button {
+    margin:14px auto;
+    width: 30%;               /* 按钮宽度为父容器宽度的一半 */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 13px 11px;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+button:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,42 @@
+body{
+    width:100%;
+}
+* {
+    box-sizing: border-box; /* 使所有元素的 padding 和 border 包括在宽度内 */
+}
+
+.header-main {
+    width: 100%;
+    background-color:#f5f5f7;
+    padding: 14px 20px;
+    padding: 20px 25px; /* 可调整的上下左右间距 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.headtable {
+    width: 100%;
+}
+
+.headtable td {
+    padding: 5px;
+}
+
+.headtable .right {
+    text-align: right;
+    float: right;
+}
+
+.headtable a {
+    font-size: 25px;
+    padding-right:13px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.button-container {
+    display: flex;           /* 使用 flex 布局 */
+    justify-content: center; /* 水平居中 */
+    margin: 15px ;
+    height:80px;
+}
+.header {
+    background-color: #ff5000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.shopping-cart {
+    margin:  0px 46px;
+    background: white;
+    padding: 15px;
+}
+
+table {
+    width: 99%;
+    border-collapse: collapse;
+}
+span{
+    font-size:17px;
+}
+th, td {
+
+    text-align: left;
+    padding: 10px 5px;
+    border-bottom: 1px solid #ddd;
+}
+label{
+    margin:0 5px;
+}
+.product-img {
+    width: 130px;
+    height: 135px;
+}
+
+.search{
+    width: 50%;  /* 让输入框宽度填满父容器 */
+    padding: 10px 10px;  /* 增加输入框的内边距 */
+    font-size: 20px;  /* 增大字体 */
+    font-weight:bold;
+    border-radius: 5px;  /* 圆角 */
+    margin-bottom: 10px;  /* 输入框底部间距 */
+    box-sizing: border-box;
+}
+
+.log-btn{
+    padding: 15px 35px;
+    margin-top:12px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 200px;
+}
+
+#productModal {
+    display: none;
+    position: fixed; /* 使用固定定位 */
+    z-index: 1; /* 确保弹窗在最前面 */
+    left: 0;
+    top: 0;
+    width: 100%; /* 让弹窗覆盖整个屏幕 */
+    height: 100%;
+    background-color: rgba(0,0,0,0.4); /* 背景半透明 */
+}
