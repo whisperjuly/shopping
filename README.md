@@ -5,6 +5,8 @@ webapps文件夹：
 1.admin：管理员页面的.jsp,.css文件，images：存放前端添加的商品图片。
 2.client:客户页面的.jsp,.css文件，images：存放首页显示图标
 
+
+
 java->com.exanple->controller:
     存放servelt文件：
         admin相关：AdminInServlet.java 管理员登陆
