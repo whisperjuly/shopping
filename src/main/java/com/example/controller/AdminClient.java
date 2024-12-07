@@ -26,6 +26,5 @@ public class AdminClient extends HttpServlet {
             response.sendRedirect(request.getContextPath() + "/AdminClient");
         }
 
-
     }
 }

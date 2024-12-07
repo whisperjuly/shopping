@@ -9,7 +9,7 @@
                 <h2>数码产品</h2>
                    <div class="product-display">
                    <c:set var="countDigital" value="0" scope="page" />
-                       <c:forEach var="product" items="${products}" >
+                       <c:forEach var="product" items="${products}"  >
                            <c:if test="${product.category eq 'digital-products'}">
                               <c:if test="${countDigital < 4}">
                                 <div class="product-item"
@@ -22,9 +22,11 @@
                                         <p class="product-price">￥${product.price}</p>
                                     </div>
                                 </div>
+                                <c:set var="countDigital" value="${countDigital + 1}" />
                                 </c:if>
                             </c:if>
                        </c:forEach>
+
                    </div>
             </div>
             <div id="fashion">
@@ -44,6 +46,7 @@
                                         <p class="product-price">￥${product.price}</p>
                                     </div>
                                 </div>
+                                <c:set var="countfa" value="${countfa + 1}" />
                                 </c:if>
                             </c:if>
                        </c:forEach>
@@ -66,9 +69,11 @@
                                         <p class="product-price">￥${product.price}</p>
                                     </div>
                                 </div>
-                                </c:if>
+                                <c:set var="countfa" value="${countfa + 1}" />
+                               </c:if>
                             </c:if>
                        </c:forEach>
+
                    </div>
             </div>
             <div id="furniture">
@@ -88,6 +93,7 @@
                                         <p class="product-price">￥${product.price}</p>
                                     </div>
                                 </div>
+                                <c:set var="countfa" value="${countfa + 1}" />
                                 </c:if>
                             </c:if>
                        </c:forEach>
@@ -110,6 +116,7 @@
                                         <p class="product-price">￥${product.price}</p>
                                     </div>
                                 </div>
+                                <c:set var="countfa" value="${countfa + 1}" />
                                 </c:if>
                             </c:if>
                        </c:forEach>
